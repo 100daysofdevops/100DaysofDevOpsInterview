@@ -7,7 +7,7 @@ int main() {
 
     if (child_pid > 0) {
         // Parent process
-        sleep(10);  // Sleep for a while to allow the child process to become a zombie
+        sleep(600);  // Sleep for a while to allow the child process to become a zombie
     } else if (child_pid == 0) {
         // Child process
         exit(0);  // Child process exits immediately, becoming a zombie
