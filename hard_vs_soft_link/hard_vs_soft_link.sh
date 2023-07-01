@@ -32,3 +32,7 @@ echo "Content of the hardlink after deleting the original file"
 cat hardlink
 echo "Content of the softlink after deleting the original file"
 cat softlink
+
+# Display the inode number after deleting test file
+echo "Inode numbers: "
+ls -li testfile hardlink softlink
