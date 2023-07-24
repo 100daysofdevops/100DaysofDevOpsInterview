@@ -31,7 +31,7 @@ Update the JSON file with the instance IDs and instance types you want to migrat
 
 
 ## Run the script:
-```python migrate_instances.py```
+```python migrate_instances.py migrate_instances.json```
 
 🚨Remember that stopping and starting instances, creating AMIs, and creating new instances may result in additional costs and temporary unavailability of the instances. Always consider these factors and your application's requirements before performing these operations.
 
