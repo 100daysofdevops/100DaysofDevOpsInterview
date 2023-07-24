@@ -1,0 +1,11 @@
+[
+    {
+        "instance_id": "i-XXXXXXXX",
+        "instance_type": "t2.medium"
+    },
+    {
+        "instance_id": "i-XXXXXXX",
+        "instance_type": "t2.micro"
+    }
+]
+
